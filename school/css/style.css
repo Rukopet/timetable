@@ -156,7 +156,7 @@ td {
 }
 
 .discipline {
-    max-width: 500px;
+    max-width: 580px;
     display: flex;
     justify-content: space-between;
 }
@@ -249,4 +249,10 @@ th {
     height: 55px;
     background-color: #0fe2ad;
     margin-left: 715px;
+}
+
+
+/**/
+.discipline2-pair {
+    display: none;
 }
