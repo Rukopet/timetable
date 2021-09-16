@@ -3,7 +3,7 @@ from .views import *
 
 
 urlpatterns = [
-    path('generate_timetable', )
+    path('generate_timetable', GenerateEntirely.as_view()),
     path('groups/', GroupsView.as_view()),
     path('audiences/', AudiencesView.as_view()),
     path('disciplines/', DisciplinesView.as_view()),

@@ -8,6 +8,8 @@ from rest_framework import serializers
 
 from .serializers import *
 import json
+import requests
+
 
 # Create your views here.
 
@@ -66,8 +68,21 @@ class PedagogsView(TimetableBaseView):
     SERIALIZER_FOR_VIEW = PedagogsSerializer
     MANY = True
 
+
 # TODO need refactor this
 class GenerateEntirely(APIView):
     HTML_FOR_VIEW = 'API/generate_send.html'
     SERIALIZER_FOR_VIEW = PedagogsSerializer
     MANY = True
+
+    def post(self, request, slug=None):
+        try:
+            serializer = self.SERIALIZER_FOR_VIEW(data=request.data, many=self.MANY)
+            if serializer.is_valid(raise_exception=True):
+                MyUtils.json_answer(True, "Valid data", 200)
+            response = requests.get('http:127.0.0.1', data=serializer.data)
+
+        except ValidationError as e:
+            return MyUtils.json_answer(False, f"Bad data, check JSON {e.__str__()}", 422)
+        except Exception as e:
+            return MyUtils.json_answer(False, f"Unknown error {e.__str__()}", 404)

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 
-class GenerateEntirelySrializator(serializers.Serializer):
+class GenerateEntirelySerializer(serializers.Serializer):
     from .groups_serializer import GroupsSerializer
     from .audiences_serializer import AudiencesSerializer
     from .loadplan_serializer import LoadPlanSerializer
@@ -10,4 +10,7 @@ class GenerateEntirelySrializator(serializers.Serializer):
 
     client_mail = serializers.EmailField(required=True)
     groups = GroupsSerializer()
-    au
+    audiences = AudiencesSerializer()
+    disciplines = DisciplinesSerializer()
+    load_plan = LoadPlanSerializer()
+    pedagogs = PedagogsSerializer()
