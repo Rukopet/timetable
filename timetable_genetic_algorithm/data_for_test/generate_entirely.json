@@ -1,0 +1,8 @@
+{
+  "client_mail": "pupkin@gmail.com",
+  "groups": "data from front, check json example group_model",
+  "audiences": "data from front, check json example audiences",
+  "disciplines": "data from front, check json example disciplines_model",
+  "load_plan": "data from front, check json example load_plan",
+  "pedagogs": "data from front, check json example pedagogs_model"
+}
