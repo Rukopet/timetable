@@ -1380,8 +1380,14 @@ $("#class11_par").change(function() {
     }
 });
 
-$('#test').on('click', function() {
-    if ($('input[name=group1a]').is(':checked')) {
+
+   
+
+
+$(function() {
+
+    $("#groups_next_page").click(function() {
+         if ($('input[name=group1a]').is(':checked')) {
         // нажат       
         groupsArray[group1a.saturday_not_study = true];       
     } else {
@@ -1844,11 +1850,6 @@ $('#test').on('click', function() {
         groupsArray[group11f.saturday_not_study = false];
     }
     console.log(groupsArray);
-});
-
-$(function() {
-
-    $("#groups_next_page").click(function() {
         console.log('Кнопка нажата!');
         localStorage.setItem("groups", JSON.stringify(groupsArray));
 
