@@ -65,3 +65,9 @@ class PedagogsView(TimetableBaseView):
     HTML_FOR_VIEW = 'API/pedagogs.html'
     SERIALIZER_FOR_VIEW = PedagogsSerializer
     MANY = True
+
+# TODO need refactor this
+class GenerateEntirely(APIView):
+    HTML_FOR_VIEW = 'API/generate_send.html'
+    SERIALIZER_FOR_VIEW = PedagogsSerializer
+    MANY = True
