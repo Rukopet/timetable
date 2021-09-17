@@ -474,9 +474,9 @@ function addCheckbox(group, value) {
     let innergroup = $("." + group);
     innergroup.append(value);
     if ($('input#second_shift').prop('checked')) {
-        $('.second_shift').fadeIn().show();
+        $('.second-shift').fadeIn().show();
     } else {
-        $('.second_shift').fadeOut(300);
+        $('.second-shift').fadeOut(300);
     }
 }
 
