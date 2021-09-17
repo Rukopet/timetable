@@ -1389,928 +1389,928 @@ $(function() {
     $("#groups_next_page").click(function() {
 
         if ($('input[name=group1a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1a.saturday_not_study = false];
         }
         if ($('input[name=group1b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1b.saturday_not_study = false];
         }
         if ($('input[name=group1c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1c.saturday_not_study = false];
         }
         if ($('input[name=group1d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1d.saturday_not_study = false];
         }
         if ($('input[name=group1e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1e.saturday_not_study = false];
         }
         if ($('input[name=group1f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1f.saturday_not_study = false];
         }
         if ($('input[name=group2a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2a.saturday_not_study = false];
         }
         if ($('input[name=group2b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2b.saturday_not_study = false];
         }
         if ($('input[name=group2c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2c.saturday_not_study = false];
         }
         if ($('input[name=group2d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2d.saturday_not_study = false];
         }
         if ($('input[name=group2e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2e.saturday_not_study = false];
         }
         if ($('input[name=group2f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2f.saturday_not_study = false];
         }
         if ($('input[name=group3a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3a.saturday_not_study = false];
         }
         if ($('input[name=group3b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3b.saturday_not_study = false];
         }
         if ($('input[name=group3c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3c.saturday_not_study = false];
         }
         if ($('input[name=group3d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3d.saturday_not_study = false];
         }
         if ($('input[name=group3e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3e.saturday_not_study = false];
         }
         if ($('input[name=group3f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3f.saturday_not_study = false];
         }
         if ($('input[name=group4a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4a.saturday_not_study = false];
         }
         if ($('input[name=group4b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4b.saturday_not_study = false];
         }
         if ($('input[name=group4c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4c.saturday_not_study = false];
         }
         if ($('input[name=group4d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4d.saturday_not_study = false];
         }
         if ($('input[name=group4e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4e.saturday_not_study = false];
         }
         if ($('input[name=group4f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4f.saturday_not_study = false];
         }
         if ($('input[name=group5a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5a.saturday_not_study = false];
         }
         if ($('input[name=group5b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5b.saturday_not_study = false];
         }
         if ($('input[name=group5c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5c.saturday_not_study = false];
         }
         if ($('input[name=group5d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5d.saturday_not_study = false];
         }
         if ($('input[name=group5e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5e.saturday_not_study = false];
         }
         if ($('input[name=group5f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5f.saturday_not_study = false];
         }
         if ($('input[name=group6a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6a.saturday_not_study = false];
         }
         if ($('input[name=group6b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6b.saturday_not_study = false];
         }
         if ($('input[name=group6c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6c.saturday_not_study = false];
         }
         if ($('input[name=group6d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6d.saturday_not_study = false];
         }
         if ($('input[name=group6e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6e.saturday_not_study = false];
         }
         if ($('input[name=group6f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6f.saturday_not_study = false];
         }
         if ($('input[name=group7a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7a.saturday_not_study = false];
         }
         if ($('input[name=group7b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7b.saturday_not_study = false];
         }
         if ($('input[name=group7c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7c.saturday_not_study = false];
         }
         if ($('input[name=group7d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7d.saturday_not_study = false];
         }
         if ($('input[name=group7e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7e.saturday_not_study = false];
         }
         if ($('input[name=group7f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7f.saturday_not_study = false];
         }
         if ($('input[name=group8a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8a.saturday_not_study = false];
         }
         if ($('input[name=group8b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8b.saturday_not_study = false];
         }
         if ($('input[name=group8c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8c.saturday_not_study = false];
         }
         if ($('input[name=group8d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8d.saturday_not_study = false];
         }
         if ($('input[name=group8e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8e.saturday_not_study = false];
         }
         if ($('input[name=group8f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8f.saturday_not_study = false];
         }
         if ($('input[name=group9a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9a.saturday_not_study = false];
         }
         if ($('input[name=group9b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9b.saturday_not_study = false];
         }
         if ($('input[name=group9c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9c.saturday_not_study = false];
         }
         if ($('input[name=group9d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9d.saturday_not_study = false];
         }
         if ($('input[name=group9e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9e.saturday_not_study = false];
         }
         if ($('input[name=group9f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9f.saturday_not_study = false];
         }
         if ($('input[name=group10a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10a.saturday_not_study = false];
         }
         if ($('input[name=group10b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10b.saturday_not_study = false];
         }
         if ($('input[name=group10c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10c.saturday_not_study = false];
         }
         if ($('input[name=group10d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10d.saturday_not_study = false];
         }
         if ($('input[name=group10e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10e.saturday_not_study = false];
         }
         if ($('input[name=group10f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10f.saturday_not_study = false];
         }
         if ($('input[name=group11a]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11a.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11a.saturday_not_study = false];
         }
         if ($('input[name=group11b]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11b.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11b.saturday_not_study = false];
         }
         if ($('input[name=group11c]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11c.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11c.saturday_not_study = false];
         }
         if ($('input[name=group11d]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11d.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11d.saturday_not_study = false];
         }
         if ($('input[name=group11e]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11e.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11e.saturday_not_study = false];
         }
         if ($('input[name=group11f]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11f.saturday_not_study = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11f.saturday_not_study = false];
         };
 
         if ($('input[name=group1a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1a.second_shift = false];
         }
         if ($('input[name=group1b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1b.second_shift = false];
         }
         if ($('input[name=group1c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1c.second_shift = false];
         }
         if ($('input[name=group1d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1d.second_shift = false];
         }
         if ($('input[name=group1e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1e.second_shift = false];
         }
         if ($('input[name=group1f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group1f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group1f.second_shift = false];
         }
         if ($('input[name=group2a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2a.second_shift = false];
         }
         if ($('input[name=group2b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2b.second_shift = false];
         }
         if ($('input[name=group2c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2c.second_shift = false];
         }
         if ($('input[name=group2d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2d.second_shift = false];
         }
         if ($('input[name=group2e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2e.second_shift = false];
         }
         if ($('input[name=group2f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group2f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group2f.second_shift = false];
         }
         if ($('input[name=group3a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3a.second_shift = false];
         }
         if ($('input[name=group3b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3b.second_shift = false];
         }
         if ($('input[name=group3c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3c.second_shift = false];
         }
         if ($('input[name=group3d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3d.second_shift = false];
         }
         if ($('input[name=group3e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3e.second_shift = false];
         }
         if ($('input[name=group3f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group3f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group3f.second_shift = false];
         }
         if ($('input[name=group4a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4a.second_shift = false];
         }
         if ($('input[name=group4b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4b.second_shift = false];
         }
         if ($('input[name=group4c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4c.second_shift = false];
         }
         if ($('input[name=group4d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4d.second_shift = false];
         }
         if ($('input[name=group4e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4e.second_shift = false];
         }
         if ($('input[name=group4f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group4f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group4f.second_shift = false];
         }
         if ($('input[name=group5a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5a.second_shift = false];
         }
         if ($('input[name=group5b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5b.second_shift = false];
         }
         if ($('input[name=group5c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5c.second_shift = false];
         }
         if ($('input[name=group5d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5d.second_shift = false];
         }
         if ($('input[name=group5e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5e.second_shift = false];
         }
         if ($('input[name=group5f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group5f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group5f.second_shift = false];
         }
         if ($('input[name=group6a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6a.second_shift = false];
         }
         if ($('input[name=group6b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6b.second_shift = false];
         }
         if ($('input[name=group6c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6c.second_shift = false];
         }
         if ($('input[name=group6d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6d.second_shift = false];
         }
         if ($('input[name=group6e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6e.second_shift = false];
         }
         if ($('input[name=group6f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group6f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group6f.second_shift = false];
         }
         if ($('input[name=group7a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7a.second_shift = false];
         }
         if ($('input[name=group7b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7b.second_shift = false];
         }
         if ($('input[name=group7c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7c.second_shift = false];
         }
         if ($('input[name=group7d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7d.second_shift = false];
         }
         if ($('input[name=group7e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7e.second_shift = false];
         }
         if ($('input[name=group7f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group7f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group7f.second_shift = false];
         }
         if ($('input[name=group8a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8a.second_shift = false];
         }
         if ($('input[name=group8b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8b.second_shift = false];
         }
         if ($('input[name=group8c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8c.second_shift = false];
         }
         if ($('input[name=group8d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8d.second_shift = false];
         }
         if ($('input[name=group8e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8e.second_shift = false];
         }
         if ($('input[name=group8f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group8f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group8f.second_shift = false];
         }
         if ($('input[name=group9a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9a.second_shift = false];
         }
         if ($('input[name=group9b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9b.second_shift = false];
         }
         if ($('input[name=group9c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9c.second_shift = false];
         }
         if ($('input[name=group9d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9d.second_shift = false];
         }
         if ($('input[name=group9e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9e.second_shift = false];
         }
         if ($('input[name=group9f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group9f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group9f.second_shift = false];
         }
         if ($('input[name=group10a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10a.second_shift = false];
         }
         if ($('input[name=group10b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10b.second_shift = false];
         }
         if ($('input[name=group10c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10c.second_shift = false];
         }
         if ($('input[name=group10d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10d.second_shift = false];
         }
         if ($('input[name=group10e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10e.second_shift = false];
         }
         if ($('input[name=group10f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group10f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group10f.second_shift = false];
         }
         if ($('input[name=group11a-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11a.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11a.second_shift = false];
         }
         if ($('input[name=group11b-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11b.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11b.second_shift = false];
         }
         if ($('input[name=group11c-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11c.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11c.second_shift = false];
         }
         if ($('input[name=group11d-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11d.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11d.second_shift = false];
         }
         if ($('input[name=group11e-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11e.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11e.second_shift = false];
         }
         if ($('input[name=group11f-second]').is(':checked')) {
-            // нажат       
+            // нажат
             groupsArray[group11f.second_shift = true];
         } else {
-            // не нажаt     
+            // не нажаt
             groupsArray[group11f.second_shift = false];
         }
         console.log(groupsArray);
