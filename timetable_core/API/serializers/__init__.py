@@ -1,0 +1,7 @@
+from .group_serializer import GroupSerializer
+from .groups_serializer import GroupsSerializer
+from .pedagogs_serializer import PedagogsSerializer
+from .audiences_serializer import AudiencesSerializer
+from .disciplines_serializer import DisciplinesSerializer
+from .loadplan_serializer import LoadPlanSerializer
+from .generate_entirely_serializer import GenerateEntirelySerializer
