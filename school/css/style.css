@@ -156,12 +156,14 @@ td {
 }
 
 .discipline {
-    max-width: 715px;
+    max-width: 580px;
     display: flex;
     justify-content: space-between;
 }
 
-.pair {}
+.pair {
+    display: none;
+}
 
 .school-discipline input {
     margin: 6px 60px;
@@ -251,7 +253,6 @@ th {
 
 
 /**/
-
 .discipline2-pair {
     display: none;
 }
