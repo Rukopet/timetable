@@ -13,37 +13,37 @@ let groups1 = [
         "number": 1,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group1b = {
         "number": 1,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group1c = {
         "number": 1,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group1d = {
         "number": 1,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group1e = {
         "number": 1,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group1f = {
         "number": 1,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups2 = [
@@ -51,37 +51,37 @@ let groups2 = [
         "number": 2,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group2b = {
         "number": 2,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group2c = {
         "number": 2,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group2d = {
         "number": 2,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group2e = {
         "number": 2,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group2f = {
         "number": 2,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups3 = [
@@ -89,37 +89,37 @@ let groups3 = [
         "number": 3,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group3b = {
         "number": 3,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group3c = {
         "number": 3,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group3d = {
         "number": 3,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group3e = {
         "number": 3,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group3f = {
         "number": 3,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups4 = [
@@ -127,37 +127,37 @@ let groups4 = [
         "number": 4,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group4b = {
         "number": 4,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group4c = {
         "number": 4,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group4d = {
         "number": 4,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group4e = {
         "number": 4,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group4f = {
         "number": 4,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups5 = [
@@ -165,37 +165,37 @@ let groups5 = [
         "number": 5,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group5b = {
         "number": 5,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group5c = {
         "number": 5,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group5d = {
         "number": 5,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group5e = {
         "number": 5,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group5f = {
         "number": 5,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups6 = [
@@ -203,37 +203,37 @@ let groups6 = [
         "number": 6,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group6b = {
         "number": 6,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group6c = {
         "number": 6,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group6d = {
         "number": 6,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group6e = {
         "number": 6,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group6f = {
         "number": 6,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups7 = [
@@ -241,37 +241,37 @@ let groups7 = [
         "number": 7,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group7b = {
         "number": 7,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group7c = {
         "number": 7,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group7d = {
         "number": 7,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group7e = {
         "number": 7,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group7f = {
         "number": 7,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups8 = [
@@ -279,37 +279,37 @@ let groups8 = [
         "number": 8,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group8b = {
         "number": 8,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group8c = {
         "number": 8,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group8d = {
         "number": 8,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group8e = {
         "number": 8,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group8f = {
         "number": 8,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups9 = [
@@ -317,37 +317,37 @@ let groups9 = [
         "number": 9,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group9b = {
         "number": 9,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group9c = {
         "number": 9,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group9d = {
         "number": 9,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group9e = {
         "number": 9,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group9f = {
         "number": 9,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups10 = [
@@ -355,37 +355,37 @@ let groups10 = [
         "number": 10,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group10b = {
         "number": 10,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group10c = {
         "number": 10,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group10d = {
         "number": 10,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group10e = {
         "number": 10,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group10f = {
         "number": 10,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 let groups11 = [
@@ -393,37 +393,37 @@ let groups11 = [
         "number": 11,
         "count": "а",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group11b = {
         "number": 11,
         "count": "б",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group11c = {
         "number": 11,
         "count": "в",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group11d = {
         "number": 11,
         "count": "г",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group11e = {
         "number": 11,
         "count": "д",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     },
     group11f = {
         "number": 11,
         "count": "е",
         "saturday_not_study": false,
-        "second-shift": false
+        "second_shift": false
     }
 ]
 
@@ -474,9 +474,9 @@ function addCheckbox(group, value) {
     let innergroup = $("." + group);
     innergroup.append(value);
     if ($('input#second_shift').prop('checked')) {
-        $('.second-shift').fadeIn().show();
+        $('.second_shift').fadeIn().show();
     } else {
-        $('.second-shift').fadeOut(300);
+        $('.second_shift').fadeOut(300);
     }
 }
 
@@ -1381,475 +1381,939 @@ $("#class11_par").change(function() {
 });
 
 
-   
+
 
 
 $(function() {
 
     $("#groups_next_page").click(function() {
-         if ($('input[name=group1a]').is(':checked')) {
-        // нажат       
-        groupsArray[group1a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1a.saturday_not_study = false];
-    }
-    if ($('input[name=group1b]').is(':checked')) {
-        // нажат       
-        groupsArray[group1b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1b.saturday_not_study = false];
-    }
-    if ($('input[name=group1c]').is(':checked')) {
-        // нажат       
-        groupsArray[group1c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1c.saturday_not_study = false];
-    }
-    if ($('input[name=group1d]').is(':checked')) {
-        // нажат       
-        groupsArray[group1d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1d.saturday_not_study = false];
-    }
-    if ($('input[name=group1e]').is(':checked')) {
-        // нажат       
-        groupsArray[group1e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1e.saturday_not_study = false];
-    }
-    if ($('input[name=group1f]').is(':checked')) {
-        // нажат       
-        groupsArray[group1f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group1f.saturday_not_study = false];
-    }
-    if ($('input[name=group2a]').is(':checked')) {
-        // нажат       
-        groupsArray[group2a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2a.saturday_not_study = false];
-    }
-    if ($('input[name=group2b]').is(':checked')) {
-        // нажат       
-        groupsArray[group2b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2b.saturday_not_study = false];
-    }
-    if ($('input[name=group2c]').is(':checked')) {
-        // нажат       
-        groupsArray[group2c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2c.saturday_not_study = false];
-    }
-    if ($('input[name=group2d]').is(':checked')) {
-        // нажат       
-        groupsArray[group2d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2d.saturday_not_study = false];
-    }
-    if ($('input[name=group2e]').is(':checked')) {
-        // нажат       
-        groupsArray[group2e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2e.saturday_not_study = false];
-    }
-    if ($('input[name=group2f]').is(':checked')) {
-        // нажат       
-        groupsArray[group2f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group2f.saturday_not_study = false];
-    }
-    if ($('input[name=group3a]').is(':checked')) {
-        // нажат       
-        groupsArray[group3a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3a.saturday_not_study = false];
-    }
-    if ($('input[name=group3b]').is(':checked')) {
-        // нажат       
-        groupsArray[group3b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3b.saturday_not_study = false];
-    }
-    if ($('input[name=group3c]').is(':checked')) {
-        // нажат       
-        groupsArray[group3c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3c.saturday_not_study = false];
-    }
-    if ($('input[name=group3d]').is(':checked')) {
-        // нажат       
-        groupsArray[group3d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3d.saturday_not_study = false];
-    }
-    if ($('input[name=group3e]').is(':checked')) {
-        // нажат       
-        groupsArray[group3e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3e.saturday_not_study = false];
-    }
-    if ($('input[name=group3f]').is(':checked')) {
-        // нажат       
-        groupsArray[group3f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group3f.saturday_not_study = false];
-    }
-    if ($('input[name=group4a]').is(':checked')) {
-        // нажат       
-        groupsArray[group4a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4a.saturday_not_study = false];
-    }
-    if ($('input[name=group4b]').is(':checked')) {
-        // нажат       
-        groupsArray[group4b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4b.saturday_not_study = false];
-    }
-    if ($('input[name=group4c]').is(':checked')) {
-        // нажат       
-        groupsArray[group4c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4c.saturday_not_study = false];
-    }
-    if ($('input[name=group4d]').is(':checked')) {
-        // нажат       
-        groupsArray[group4d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4d.saturday_not_study = false];
-    }
-    if ($('input[name=group4e]').is(':checked')) {
-        // нажат       
-        groupsArray[group4e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4e.saturday_not_study = false];
-    }
-    if ($('input[name=group4f]').is(':checked')) {
-        // нажат       
-        groupsArray[group4f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group4f.saturday_not_study = false];
-    }
-    if ($('input[name=group5a]').is(':checked')) {
-        // нажат       
-        groupsArray[group5a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5a.saturday_not_study = false];
-    }
-    if ($('input[name=group5b]').is(':checked')) {
-        // нажат       
-        groupsArray[group5b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5b.saturday_not_study = false];
-    }
-    if ($('input[name=group5c]').is(':checked')) {
-        // нажат       
-        groupsArray[group5c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5c.saturday_not_study = false];
-    }
-    if ($('input[name=group5d]').is(':checked')) {
-        // нажат       
-        groupsArray[group5d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5d.saturday_not_study = false];
-    }
-    if ($('input[name=group5e]').is(':checked')) {
-        // нажат       
-        groupsArray[group5e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5e.saturday_not_study = false];
-    }
-    if ($('input[name=group5f]').is(':checked')) {
-        // нажат       
-        groupsArray[group5f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group5f.saturday_not_study = false];
-    }
-    if ($('input[name=group6a]').is(':checked')) {
-        // нажат       
-        groupsArray[group6a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6a.saturday_not_study = false];
-    }
-    if ($('input[name=group6b]').is(':checked')) {
-        // нажат       
-        groupsArray[group6b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6b.saturday_not_study = false];
-    }
-    if ($('input[name=group6c]').is(':checked')) {
-        // нажат       
-        groupsArray[group6c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6c.saturday_not_study = false];
-    }
-    if ($('input[name=group6d]').is(':checked')) {
-        // нажат       
-        groupsArray[group6d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6d.saturday_not_study = false];
-    }
-    if ($('input[name=group6e]').is(':checked')) {
-        // нажат       
-        groupsArray[group6e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6e.saturday_not_study = false];
-    }
-    if ($('input[name=group6f]').is(':checked')) {
-        // нажат       
-        groupsArray[group6f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group6f.saturday_not_study = false];
-    }
-    if ($('input[name=group7a]').is(':checked')) {
-        // нажат       
-        groupsArray[group7a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7a.saturday_not_study = false];
-    }
-    if ($('input[name=group7b]').is(':checked')) {
-        // нажат       
-        groupsArray[group7b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7b.saturday_not_study = false];
-    }
-    if ($('input[name=group7c]').is(':checked')) {
-        // нажат       
-        groupsArray[group7c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7c.saturday_not_study = false];
-    }
-    if ($('input[name=group7d]').is(':checked')) {
-        // нажат       
-        groupsArray[group7d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7d.saturday_not_study = false];
-    }
-    if ($('input[name=group7e]').is(':checked')) {
-        // нажат       
-        groupsArray[group7e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7e.saturday_not_study = false];
-    }
-    if ($('input[name=group7f]').is(':checked')) {
-        // нажат       
-        groupsArray[group7f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group7f.saturday_not_study = false];
-    }
-    if ($('input[name=group8a]').is(':checked')) {
-        // нажат       
-        groupsArray[group8a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8a.saturday_not_study = false];
-    }
-    if ($('input[name=group8b]').is(':checked')) {
-        // нажат       
-        groupsArray[group8b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8b.saturday_not_study = false];
-    }
-    if ($('input[name=group8c]').is(':checked')) {
-        // нажат       
-        groupsArray[group8c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8c.saturday_not_study = false];
-    }
-    if ($('input[name=group8d]').is(':checked')) {
-        // нажат       
-        groupsArray[group8d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8d.saturday_not_study = false];
-    }
-    if ($('input[name=group8e]').is(':checked')) {
-        // нажат       
-        groupsArray[group8e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8e.saturday_not_study = false];
-    }
-    if ($('input[name=group8f]').is(':checked')) {
-        // нажат       
-        groupsArray[group8f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group8f.saturday_not_study = false];
-    }
-    if ($('input[name=group9a]').is(':checked')) {
-        // нажат       
-        groupsArray[group9a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9a.saturday_not_study = false];
-    }
-    if ($('input[name=group9b]').is(':checked')) {
-        // нажат       
-        groupsArray[group9b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9b.saturday_not_study = false];
-    }
-    if ($('input[name=group9c]').is(':checked')) {
-        // нажат       
-        groupsArray[group9c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9c.saturday_not_study = false];
-    }
-    if ($('input[name=group9d]').is(':checked')) {
-        // нажат       
-        groupsArray[group9d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9d.saturday_not_study = false];
-    }
-    if ($('input[name=group9e]').is(':checked')) {
-        // нажат       
-        groupsArray[group9e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9e.saturday_not_study = false];
-    }
-    if ($('input[name=group9f]').is(':checked')) {
-        // нажат       
-        groupsArray[group9f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group9f.saturday_not_study = false];
-    }
-    if ($('input[name=group10a]').is(':checked')) {
-        // нажат       
-        groupsArray[group10a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10a.saturday_not_study = false];
-    }
-    if ($('input[name=group10b]').is(':checked')) {
-        // нажат       
-        groupsArray[group10b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10b.saturday_not_study = false];
-    }
-    if ($('input[name=group10c]').is(':checked')) {
-        // нажат       
-        groupsArray[group10c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10c.saturday_not_study = false];
-    }
-    if ($('input[name=group10d]').is(':checked')) {
-        // нажат       
-        groupsArray[group10d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10d.saturday_not_study = false];
-    }
-    if ($('input[name=group10e]').is(':checked')) {
-        // нажат       
-        groupsArray[group10e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10e.saturday_not_study = false];
-    }
-    if ($('input[name=group10f]').is(':checked')) {
-        // нажат       
-        groupsArray[group10f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group10f.saturday_not_study = false];
-    }
-    if ($('input[name=group11a]').is(':checked')) {
-        // нажат       
-        groupsArray[group11a.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11a.saturday_not_study = false];
-    }
-    if ($('input[name=group11b]').is(':checked')) {
-        // нажат       
-        groupsArray[group11b.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11b.saturday_not_study = false];
-    }
-    if ($('input[name=group11c]').is(':checked')) {
-        // нажат       
-        groupsArray[group11c.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11c.saturday_not_study = false];
-    }
-    if ($('input[name=group11d]').is(':checked')) {
-        // нажат       
-        groupsArray[group11d.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11d.saturday_not_study = false];
-    }
-    if ($('input[name=group11e]').is(':checked')) {
-        // нажат       
-        groupsArray[group11e.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11e.saturday_not_study = false];
-    }
-    if ($('input[name=group11f]').is(':checked')) {
-        // нажат       
-        groupsArray[group11f.saturday_not_study = true];       
-    } else {
-        // не нажаt     
-        groupsArray[group11f.saturday_not_study = false];
-    }
-    console.log(groupsArray);
+
+        if ($('input[name=group1a]').is(':checked')) {
+            // нажат       
+            groupsArray[group1a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1a.saturday_not_study = false];
+        }
+        if ($('input[name=group1b]').is(':checked')) {
+            // нажат       
+            groupsArray[group1b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1b.saturday_not_study = false];
+        }
+        if ($('input[name=group1c]').is(':checked')) {
+            // нажат       
+            groupsArray[group1c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1c.saturday_not_study = false];
+        }
+        if ($('input[name=group1d]').is(':checked')) {
+            // нажат       
+            groupsArray[group1d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1d.saturday_not_study = false];
+        }
+        if ($('input[name=group1e]').is(':checked')) {
+            // нажат       
+            groupsArray[group1e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1e.saturday_not_study = false];
+        }
+        if ($('input[name=group1f]').is(':checked')) {
+            // нажат       
+            groupsArray[group1f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1f.saturday_not_study = false];
+        }
+        if ($('input[name=group2a]').is(':checked')) {
+            // нажат       
+            groupsArray[group2a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2a.saturday_not_study = false];
+        }
+        if ($('input[name=group2b]').is(':checked')) {
+            // нажат       
+            groupsArray[group2b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2b.saturday_not_study = false];
+        }
+        if ($('input[name=group2c]').is(':checked')) {
+            // нажат       
+            groupsArray[group2c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2c.saturday_not_study = false];
+        }
+        if ($('input[name=group2d]').is(':checked')) {
+            // нажат       
+            groupsArray[group2d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2d.saturday_not_study = false];
+        }
+        if ($('input[name=group2e]').is(':checked')) {
+            // нажат       
+            groupsArray[group2e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2e.saturday_not_study = false];
+        }
+        if ($('input[name=group2f]').is(':checked')) {
+            // нажат       
+            groupsArray[group2f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2f.saturday_not_study = false];
+        }
+        if ($('input[name=group3a]').is(':checked')) {
+            // нажат       
+            groupsArray[group3a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3a.saturday_not_study = false];
+        }
+        if ($('input[name=group3b]').is(':checked')) {
+            // нажат       
+            groupsArray[group3b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3b.saturday_not_study = false];
+        }
+        if ($('input[name=group3c]').is(':checked')) {
+            // нажат       
+            groupsArray[group3c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3c.saturday_not_study = false];
+        }
+        if ($('input[name=group3d]').is(':checked')) {
+            // нажат       
+            groupsArray[group3d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3d.saturday_not_study = false];
+        }
+        if ($('input[name=group3e]').is(':checked')) {
+            // нажат       
+            groupsArray[group3e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3e.saturday_not_study = false];
+        }
+        if ($('input[name=group3f]').is(':checked')) {
+            // нажат       
+            groupsArray[group3f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3f.saturday_not_study = false];
+        }
+        if ($('input[name=group4a]').is(':checked')) {
+            // нажат       
+            groupsArray[group4a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4a.saturday_not_study = false];
+        }
+        if ($('input[name=group4b]').is(':checked')) {
+            // нажат       
+            groupsArray[group4b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4b.saturday_not_study = false];
+        }
+        if ($('input[name=group4c]').is(':checked')) {
+            // нажат       
+            groupsArray[group4c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4c.saturday_not_study = false];
+        }
+        if ($('input[name=group4d]').is(':checked')) {
+            // нажат       
+            groupsArray[group4d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4d.saturday_not_study = false];
+        }
+        if ($('input[name=group4e]').is(':checked')) {
+            // нажат       
+            groupsArray[group4e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4e.saturday_not_study = false];
+        }
+        if ($('input[name=group4f]').is(':checked')) {
+            // нажат       
+            groupsArray[group4f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4f.saturday_not_study = false];
+        }
+        if ($('input[name=group5a]').is(':checked')) {
+            // нажат       
+            groupsArray[group5a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5a.saturday_not_study = false];
+        }
+        if ($('input[name=group5b]').is(':checked')) {
+            // нажат       
+            groupsArray[group5b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5b.saturday_not_study = false];
+        }
+        if ($('input[name=group5c]').is(':checked')) {
+            // нажат       
+            groupsArray[group5c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5c.saturday_not_study = false];
+        }
+        if ($('input[name=group5d]').is(':checked')) {
+            // нажат       
+            groupsArray[group5d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5d.saturday_not_study = false];
+        }
+        if ($('input[name=group5e]').is(':checked')) {
+            // нажат       
+            groupsArray[group5e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5e.saturday_not_study = false];
+        }
+        if ($('input[name=group5f]').is(':checked')) {
+            // нажат       
+            groupsArray[group5f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5f.saturday_not_study = false];
+        }
+        if ($('input[name=group6a]').is(':checked')) {
+            // нажат       
+            groupsArray[group6a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6a.saturday_not_study = false];
+        }
+        if ($('input[name=group6b]').is(':checked')) {
+            // нажат       
+            groupsArray[group6b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6b.saturday_not_study = false];
+        }
+        if ($('input[name=group6c]').is(':checked')) {
+            // нажат       
+            groupsArray[group6c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6c.saturday_not_study = false];
+        }
+        if ($('input[name=group6d]').is(':checked')) {
+            // нажат       
+            groupsArray[group6d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6d.saturday_not_study = false];
+        }
+        if ($('input[name=group6e]').is(':checked')) {
+            // нажат       
+            groupsArray[group6e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6e.saturday_not_study = false];
+        }
+        if ($('input[name=group6f]').is(':checked')) {
+            // нажат       
+            groupsArray[group6f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6f.saturday_not_study = false];
+        }
+        if ($('input[name=group7a]').is(':checked')) {
+            // нажат       
+            groupsArray[group7a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7a.saturday_not_study = false];
+        }
+        if ($('input[name=group7b]').is(':checked')) {
+            // нажат       
+            groupsArray[group7b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7b.saturday_not_study = false];
+        }
+        if ($('input[name=group7c]').is(':checked')) {
+            // нажат       
+            groupsArray[group7c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7c.saturday_not_study = false];
+        }
+        if ($('input[name=group7d]').is(':checked')) {
+            // нажат       
+            groupsArray[group7d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7d.saturday_not_study = false];
+        }
+        if ($('input[name=group7e]').is(':checked')) {
+            // нажат       
+            groupsArray[group7e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7e.saturday_not_study = false];
+        }
+        if ($('input[name=group7f]').is(':checked')) {
+            // нажат       
+            groupsArray[group7f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7f.saturday_not_study = false];
+        }
+        if ($('input[name=group8a]').is(':checked')) {
+            // нажат       
+            groupsArray[group8a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8a.saturday_not_study = false];
+        }
+        if ($('input[name=group8b]').is(':checked')) {
+            // нажат       
+            groupsArray[group8b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8b.saturday_not_study = false];
+        }
+        if ($('input[name=group8c]').is(':checked')) {
+            // нажат       
+            groupsArray[group8c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8c.saturday_not_study = false];
+        }
+        if ($('input[name=group8d]').is(':checked')) {
+            // нажат       
+            groupsArray[group8d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8d.saturday_not_study = false];
+        }
+        if ($('input[name=group8e]').is(':checked')) {
+            // нажат       
+            groupsArray[group8e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8e.saturday_not_study = false];
+        }
+        if ($('input[name=group8f]').is(':checked')) {
+            // нажат       
+            groupsArray[group8f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8f.saturday_not_study = false];
+        }
+        if ($('input[name=group9a]').is(':checked')) {
+            // нажат       
+            groupsArray[group9a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9a.saturday_not_study = false];
+        }
+        if ($('input[name=group9b]').is(':checked')) {
+            // нажат       
+            groupsArray[group9b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9b.saturday_not_study = false];
+        }
+        if ($('input[name=group9c]').is(':checked')) {
+            // нажат       
+            groupsArray[group9c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9c.saturday_not_study = false];
+        }
+        if ($('input[name=group9d]').is(':checked')) {
+            // нажат       
+            groupsArray[group9d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9d.saturday_not_study = false];
+        }
+        if ($('input[name=group9e]').is(':checked')) {
+            // нажат       
+            groupsArray[group9e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9e.saturday_not_study = false];
+        }
+        if ($('input[name=group9f]').is(':checked')) {
+            // нажат       
+            groupsArray[group9f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9f.saturday_not_study = false];
+        }
+        if ($('input[name=group10a]').is(':checked')) {
+            // нажат       
+            groupsArray[group10a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10a.saturday_not_study = false];
+        }
+        if ($('input[name=group10b]').is(':checked')) {
+            // нажат       
+            groupsArray[group10b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10b.saturday_not_study = false];
+        }
+        if ($('input[name=group10c]').is(':checked')) {
+            // нажат       
+            groupsArray[group10c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10c.saturday_not_study = false];
+        }
+        if ($('input[name=group10d]').is(':checked')) {
+            // нажат       
+            groupsArray[group10d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10d.saturday_not_study = false];
+        }
+        if ($('input[name=group10e]').is(':checked')) {
+            // нажат       
+            groupsArray[group10e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10e.saturday_not_study = false];
+        }
+        if ($('input[name=group10f]').is(':checked')) {
+            // нажат       
+            groupsArray[group10f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10f.saturday_not_study = false];
+        }
+        if ($('input[name=group11a]').is(':checked')) {
+            // нажат       
+            groupsArray[group11a.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11a.saturday_not_study = false];
+        }
+        if ($('input[name=group11b]').is(':checked')) {
+            // нажат       
+            groupsArray[group11b.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11b.saturday_not_study = false];
+        }
+        if ($('input[name=group11c]').is(':checked')) {
+            // нажат       
+            groupsArray[group11c.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11c.saturday_not_study = false];
+        }
+        if ($('input[name=group11d]').is(':checked')) {
+            // нажат       
+            groupsArray[group11d.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11d.saturday_not_study = false];
+        }
+        if ($('input[name=group11e]').is(':checked')) {
+            // нажат       
+            groupsArray[group11e.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11e.saturday_not_study = false];
+        }
+        if ($('input[name=group11f]').is(':checked')) {
+            // нажат       
+            groupsArray[group11f.saturday_not_study = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11f.saturday_not_study = false];
+        };
+
+        if ($('input[name=group1a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1a.second_shift = false];
+        }
+        if ($('input[name=group1b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1b.second_shift = false];
+        }
+        if ($('input[name=group1c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1c.second_shift = false];
+        }
+        if ($('input[name=group1d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1d.second_shift = false];
+        }
+        if ($('input[name=group1e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1e.second_shift = false];
+        }
+        if ($('input[name=group1f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group1f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group1f.second_shift = false];
+        }
+        if ($('input[name=group2a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2a.second_shift = false];
+        }
+        if ($('input[name=group2b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2b.second_shift = false];
+        }
+        if ($('input[name=group2c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2c.second_shift = false];
+        }
+        if ($('input[name=group2d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2d.second_shift = false];
+        }
+        if ($('input[name=group2e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2e.second_shift = false];
+        }
+        if ($('input[name=group2f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group2f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group2f.second_shift = false];
+        }
+        if ($('input[name=group3a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3a.second_shift = false];
+        }
+        if ($('input[name=group3b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3b.second_shift = false];
+        }
+        if ($('input[name=group3c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3c.second_shift = false];
+        }
+        if ($('input[name=group3d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3d.second_shift = false];
+        }
+        if ($('input[name=group3e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3e.second_shift = false];
+        }
+        if ($('input[name=group3f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group3f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group3f.second_shift = false];
+        }
+        if ($('input[name=group4a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4a.second_shift = false];
+        }
+        if ($('input[name=group4b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4b.second_shift = false];
+        }
+        if ($('input[name=group4c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4c.second_shift = false];
+        }
+        if ($('input[name=group4d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4d.second_shift = false];
+        }
+        if ($('input[name=group4e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4e.second_shift = false];
+        }
+        if ($('input[name=group4f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group4f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group4f.second_shift = false];
+        }
+        if ($('input[name=group5a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5a.second_shift = false];
+        }
+        if ($('input[name=group5b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5b.second_shift = false];
+        }
+        if ($('input[name=group5c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5c.second_shift = false];
+        }
+        if ($('input[name=group5d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5d.second_shift = false];
+        }
+        if ($('input[name=group5e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5e.second_shift = false];
+        }
+        if ($('input[name=group5f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group5f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group5f.second_shift = false];
+        }
+        if ($('input[name=group6a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6a.second_shift = false];
+        }
+        if ($('input[name=group6b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6b.second_shift = false];
+        }
+        if ($('input[name=group6c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6c.second_shift = false];
+        }
+        if ($('input[name=group6d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6d.second_shift = false];
+        }
+        if ($('input[name=group6e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6e.second_shift = false];
+        }
+        if ($('input[name=group6f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group6f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group6f.second_shift = false];
+        }
+        if ($('input[name=group7a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7a.second_shift = false];
+        }
+        if ($('input[name=group7b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7b.second_shift = false];
+        }
+        if ($('input[name=group7c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7c.second_shift = false];
+        }
+        if ($('input[name=group7d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7d.second_shift = false];
+        }
+        if ($('input[name=group7e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7e.second_shift = false];
+        }
+        if ($('input[name=group7f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group7f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group7f.second_shift = false];
+        }
+        if ($('input[name=group8a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8a.second_shift = false];
+        }
+        if ($('input[name=group8b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8b.second_shift = false];
+        }
+        if ($('input[name=group8c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8c.second_shift = false];
+        }
+        if ($('input[name=group8d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8d.second_shift = false];
+        }
+        if ($('input[name=group8e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8e.second_shift = false];
+        }
+        if ($('input[name=group8f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group8f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group8f.second_shift = false];
+        }
+        if ($('input[name=group9a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9a.second_shift = false];
+        }
+        if ($('input[name=group9b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9b.second_shift = false];
+        }
+        if ($('input[name=group9c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9c.second_shift = false];
+        }
+        if ($('input[name=group9d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9d.second_shift = false];
+        }
+        if ($('input[name=group9e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9e.second_shift = false];
+        }
+        if ($('input[name=group9f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group9f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group9f.second_shift = false];
+        }
+        if ($('input[name=group10a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10a.second_shift = false];
+        }
+        if ($('input[name=group10b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10b.second_shift = false];
+        }
+        if ($('input[name=group10c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10c.second_shift = false];
+        }
+        if ($('input[name=group10d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10d.second_shift = false];
+        }
+        if ($('input[name=group10e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10e.second_shift = false];
+        }
+        if ($('input[name=group10f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group10f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group10f.second_shift = false];
+        }
+        if ($('input[name=group11a-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11a.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11a.second_shift = false];
+        }
+        if ($('input[name=group11b-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11b.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11b.second_shift = false];
+        }
+        if ($('input[name=group11c-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11c.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11c.second_shift = false];
+        }
+        if ($('input[name=group11d-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11d.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11d.second_shift = false];
+        }
+        if ($('input[name=group11e-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11e.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11e.second_shift = false];
+        }
+        if ($('input[name=group11f-second]').is(':checked')) {
+            // нажат       
+            groupsArray[group11f.second_shift = true];
+        } else {
+            // не нажаt     
+            groupsArray[group11f.second_shift = false];
+        }
+        console.log(groupsArray);
         console.log('Кнопка нажата!');
         localStorage.setItem("groups", JSON.stringify(groupsArray));
 
