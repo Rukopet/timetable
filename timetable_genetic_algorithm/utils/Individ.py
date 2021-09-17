@@ -69,9 +69,12 @@ class Individ:
     def __get_str_from_tuple(self, lesson_tuple: tuple, current_value: Optional[str], audience_number: str) -> str:
         if self.settings.DEBUG == 0:
             return f'{current_value}\n{lesson_tuple[1]}' if current_value else lesson_tuple[1]
+        # elif self.settings.DEBUG == 1:
+        #     return current_value + audience_number + ' ' + ', '.join(map(str, lesson_tuple))\
+        #         if current_value else audience_number + ' ' + ', '.join(map(str, lesson_tuple))
         elif self.settings.DEBUG == 1:
-            return current_value + audience_number + ' ' + ', '.join(map(str, lesson_tuple))\
-                if current_value else audience_number + ' ' + ', '.join(map(str, lesson_tuple))
+            return f'{current_value}\n{lesson_tuple[1]}\n{lesson_tuple[2]}\n{str(tuple(audience_number)[1])}'\
+                if current_value else lesson_tuple[1] + '\n' + lesson_tuple[2] + '\naud. ' + str(tuple(audience_number)[1])
 
     @staticmethod
     def __print_out(out_dict: Dict[Group, str], groups: List[Group], ws: Worksheet,

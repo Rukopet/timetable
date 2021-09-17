@@ -157,12 +157,21 @@ def best_individ_search(population: PopulationType) -> int:
     return best
 
 
+def search_best_individ_finally(population: PopulationType, best: int) -> None:
+    for individ in population:
+        if individ.penalty == best:
+            individ.into_excel_file(file_name="test.xls")
+            break
+
+
 def main_loop(table_settings: AlgorithmSettings, population: PopulationType, audience_tuple: tuple) -> Individ:
     from timetable_genetic_algorithm.utils.plot_drawer import PlotDrawer
 
     best_individ = None
     draw = PlotDrawer()
     mutation_generators = GeneratorsForMutation(table_settings, audience_tuple)
+
+    best = 0
 
     for generation in range(table_settings.COUNT_GENERATIONS):
         print("\n-------------------generation", generation, "-------------------")
@@ -179,6 +188,8 @@ def main_loop(table_settings: AlgorithmSettings, population: PopulationType, aud
 
         best = best_individ_search(offspring)
         print("-------------------Best:", best, "-------------------\n")
+        if best <= table_settings.EXIT_OF_ALGORITHM:
+            break
         # print(list_penalty)
         # print(best_individ.get("sum"))
         # print(log.penalty.values())
@@ -199,6 +210,7 @@ def main_loop(table_settings: AlgorithmSettings, population: PopulationType, aud
         draw.mean_append(log.get_mean(table_settings.TOTAL_POPULATION))
         del log
 
+    search_best_individ_finally(population, best)
     if table_settings.DEBUG == 1:
         draw.show_plot()
     return best_individ.get("instance")
