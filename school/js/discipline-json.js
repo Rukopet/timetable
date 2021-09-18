@@ -2308,18 +2308,22 @@ $("#class11_par").change(function() {
     }
 });
 
-
-
-
+function sortByNumber(a, b) {
+    var aNumber = a.number.toLowerCase() + a.count.toLowerCase();
+    var bNumber = b.number.toLowerCase() + b.count.toLowerCase(); 
+    return ((aNumber    < bNumber) ? -1 : ((aNumber  > bNumber) ? 1 : 0));
+}
 
 $(function() {
 
-    $("#groups_next_page").click(function() {
-        
+    $("#groups_next_page").click(function() {        
         handlerOnPress();
 
         console.log(groupsArray);
         console.log('Кнопка нажата!');
+
+        groupsArray.sort(sortByNumber);
+
         localStorage.setItem("groups", JSON.stringify(groupsArray));
 
         if (groupsArray.length === 0) {
