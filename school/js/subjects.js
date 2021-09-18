@@ -33,20 +33,21 @@ $(function() {
         //
     }
 
+
+    getAllCurrent();
+
     $(".discipline-pair0").click(function(){
         
-    if ($('.discipline-pair0').prop('checked')) {
-        $('.select_pair').fadeIn().show();
-        console.log('hide-show');
-        discipline.forEach((item, i, discipline) => {
-        $("#pair").append('<option value="pair1">' + discipline[i] + '</option>');
-    })
-        
-}else {
-        
-    }
-
-});
+        if ($('.discipline-pair0').prop('checked')) {
+            $('.select_pair').fadeIn().show();
+            console.log('hide-show');
+            discipline.forEach((item, i, discipline) => {
+            $("#pair").append('<option value="pair1">' + discipline[i] + '</option>');
+        })}
+        else {
+            
+        }
+    });
 
     // $('#' + id).is(":checked")
 
@@ -54,6 +55,7 @@ $(function() {
         console.log('Кнопка нажата!');
         var subjects = getAllCurrent();
         localStorage.setItem("subjects", JSON.stringify(subjects));
+        // alert("dd")
     })
 
 });
@@ -64,7 +66,14 @@ function getAllCurrent() {
     $('.discipline_container').children('div').each(function() {
         console.log(this); // "this" is the current element in the loop
 
-        var str = $(this).text().trim();
+        var str =  $(this)
+        .clone()    //clone the element
+        .children() //select all the children
+        .remove()   //remove all the children
+        .end()  //again go back to selected element
+        .text().trim();
+        
+        console.log(str);
         arr.push(str);
     });
 
