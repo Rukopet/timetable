@@ -70,15 +70,51 @@ function getAllCurrent() {
 function getJson() {
 
     var arrJson = [];
-       
+    
+    // $('.discipline_container').children('div').each(function() {
+    //     console.log(this); 
+    //     var strJson = $(this)
+    //     .clone()    //clone the element
+    //     .children() //select all the children
+    //     .remove()
+    //     .end() 
+    //     .text().trim();// "this" is the current element in the loop
+    // $( ".discipline" ).each(function(index) {
+    //     $(this).on("click", function(){
+    //         // For the boolean value
+    //         // For the mammal value
+    //         var mammalKey = $(this).attr('id'); 
+   
      for (let i = 0; i < discipline.length; i++) {
     var object = {}
     
-    object.discipline = discipline[i];
-    
-
-      arrJson.push(object)
       
-    };
+    object.discipline = discipline[i];
+    var discId = i;
+    document.getElementById('pair' + discId).addEventListener('change', function() {
+    function getSelectedText(elementId) {
+        var elt = document.getElementById(elementId);
+    
+        if (elt.selectedIndex == -1)
+            return null;
+    
+        return elt.options[elt.selectedIndex].text;
+    }
+    var text = getSelectedText("pair0");
+    // var text = getSelectedText("pair" + discId);
+    console.log(text)
+    // document.getElementById('pair' + discId).addEventListener('change', function() {
+    //     var n = this.value;
+    //     var e = (selection.options[index].innerHTML);
+    //     console.log(e)
+    //     // var n = $( "'pair' + discId option:selected" ).text(); 
+    //     //  var txt = n.text;
+    object.pair = text;
+    arrJson.push(object)
+    //      console.log(arrJson)
+      
+});
+// arrJson.push(object)
+}
     console.log(arrJson)
 }
