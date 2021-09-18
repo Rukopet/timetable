@@ -26,15 +26,27 @@ $(function() {
             +"> <div class='discipline" + i + "' " + "id='discipline" + i + "' " + "> " + item + "  </div>   </div>");
 
         var innerParent = $("#" + id);
-        innerParent.append("<div class='discipline-chek'> <input type='checkbox'  name='discipline" + i + "' " + " value='discipline" + i + "' " + " checked>     <input type='checkbox' class='discipline1-pair' name='discipline1-pair' value='discipline1-pair'> <select class='pair" + i + "' id='pair" + i + "' multiple name='pair" + i + "'><option disabled>укажите второй предмет</option></select></div>");
+                innerParent.append("<div class='discipline-chek'> <input type='checkbox'  name='discipline" + i + "' " + " value='discipline" + i + "' " + " checked>     <input type='checkbox' class='discipline-pair" + i +"' name='discipline-pair" + i +"' value='discipline-pair" + i +"'> <div class='select_pair'><select class='pair' id='pair' multiple name='pair" + i + "'><option disabled>укажите второй предмет</option></select></div></div>");
+
         //innerParent.append("<div class='discipline-chek'> <input type='checkbox'  name='discipline" + i + "' " + " value='discipline" + i + "' " + " checked>     <input type='checkbox' class='discipline1-pair' name='discipline1-pair' value='discipline1-pair'> <input type='checkbox' class='discipline2-pair' name='discipline2-pair' value='discipline2-pair'> </div>");
         //innerParent.find('.discipline1-pair').change(f)
         //
     }
 
-    discipline.forEach((item, i, discipline) => {
-        $("#pair0").append('<option value="pair1">' + discipline[i] + '</option>');
-    });
+    $(".discipline-pair0").click(function(){
+        
+    if ($('.discipline-pair0').prop('checked')) {
+        $('.select_pair').fadeIn().show();
+        console.log('hide-show');
+        discipline.forEach((item, i, discipline) => {
+        $("#pair").append('<option value="pair1">' + discipline[i] + '</option>');
+    })
+        
+}else {
+        
+    }
+
+});
 
     // $('#' + id).is(":checked")
 
