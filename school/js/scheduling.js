@@ -21,38 +21,50 @@ $(function() {
 
 function addRow(id, groups, subjects){
 
-    let inputTd = "<td><input type='text' name='teacher'" + id + "' " + "id='teacher'" + id + "' " + "></td>";
+    let inputTd = "<td><input type='text' name='teacher" + id + "' " + "id='teacher" + id + "' " + "></td>";
 
-    let selectGroupsTd = addSelectGroups(id, groups);
+    let selectGroupsTd = addSelectGroupsTd(id, groups);
 
     let selectSubjectsTd = addSelectSubjects(id, subjects);
 
-    let row = "<tr>"+ inputTd + selectGroupsTd + selectSubjectsTd + "</tr>";
+    let row = "<tr>"+ inputTd  + selectSubjectsTd + selectGroupsTd + "</tr>";
 
     $('#teacher-discipline tr:last').after(row);
 }
 
-function addSelectGroups(id, groups) {
-    let options = "";
+function addSelectGroupsTd(id, groups) {
+    
+    let optionsSelect  = "<option>-</option>";
 
     for (var i = 0; i < groups.length; i++ ) {
-
-        var group = groups[i];
-        var tr_var ="<tr><td> " + subject + "</td>" + inputRow + "</tr>";
-
-        //$(tr_var).appendTo('#tableSubjects');
+        var group = groups[i].number + groups[i].count;        
+        optionsSelect += "<option>" + group + "</option>";        
     }
+
+    var select = "<select class='discipline-teach" + id + "' " + " id='discipline-teach'" + id + "' " + " name='discipline-teach" + id + "' " + ">"
+
+    var endSelect = " </select>";
+
+    var result = "<td>"+ select + optionsSelect + endSelect +"</td>";
+
+    return result;
 }
 
 function addSelectSubjects(id, subjects){
     
-    let options = "";
+    let optionsSelect  = "<option>-</option>";
 
     for (var i = 0; i < subjects.length; i++ ) {
 
         var subject = subjects[i];
-        var tr_var ="<tr><td> " + subject + "</td>" + inputRow + "</tr>";
-
-        //$(tr_var).appendTo('#tableSubjects');
+        optionsSelect += "<option>" + subject + "</option>";     
     }
+
+    var select = "<select class='discipline-teach" + id + "' " + " id='discipline-teach'" + id + "' " + " name='discipline-teach" + id + "' " + ">"
+
+    var endSelect = " </select>";
+
+    var result = "<td>"+ select + optionsSelect + endSelect +"</td>";
+
+    return result;
 }
