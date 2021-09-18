@@ -16,8 +16,6 @@ $(function() {
 
     console.log("hello subjects js");
 
-
-
     var parent = $(".discipline_container");
     for (let i = 0; i < discipline.length; i++) {
         const item = discipline[i];
