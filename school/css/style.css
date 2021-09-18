@@ -160,6 +160,9 @@ td {
     display: flex;
     justify-content: space-between;
 }
+.discipline-chek {
+    display: flex;
+}
 
 .pair {}
 
