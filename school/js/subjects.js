@@ -34,12 +34,16 @@ $(function() {
     }
 
     getAllCurrent();    
+    getJson();
 
     $("#subjects_next_page").click(function() {
         console.log('Кнопка нажата!');
         var subjects = getAllCurrent();
         localStorage.setItem("subjects", JSON.stringify(subjects));
         // alert("dd")
+        var subjects_json = getJson();
+        localStorage.setItem("subjects_json", JSON.stringify(subjects_json));
+    
     })
 
 });
@@ -62,4 +66,19 @@ function getAllCurrent() {
     });
 
     return arr;
+}
+function getJson() {
+
+    var arrJson = [];
+       
+     for (let i = 0; i < discipline.length; i++) {
+    var object = {}
+    
+    object.discipline = discipline[i];
+    
+
+      arrJson.push(object)
+      
+    };
+    console.log(arrJson)
 }
