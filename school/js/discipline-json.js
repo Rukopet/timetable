@@ -2309,25 +2309,26 @@ $("#class11_par").change(function() {
 });
 
 function sortByNumber(a, b) {
-    var aNumber = a.number.toLowerCase() + a.count.toLowerCase();
-    var bNumber = b.number.toLowerCase() + b.count.toLowerCase(); 
+    var aNumber = a.number + a.count.toLowerCase();
+    var bNumber = b.number + b.count.toLowerCase(); 
     return ((aNumber    < bNumber) ? -1 : ((aNumber  > bNumber) ? 1 : 0));
 }
 
 $(function() {
 
-    $("#groups_next_page").click(function() {        
-        handlerOnPress();
+    $("#groups_next_page").click(function() { 
+            
+        handlerOnPress();        
+        groupsArray.sort(sortByNumber);    
 
-        console.log(groupsArray);
-        console.log('Кнопка нажата!');
+        var json = JSON.stringify(groupsArray);    
 
-        groupsArray.sort(sortByNumber);
-
-        localStorage.setItem("groups", JSON.stringify(groupsArray));
-
+        localStorage.setItem("groups", json);
+        
         if (groupsArray.length === 0) {
             alert("Не выбрали классы");
+        } else {
+            window.location.href = "./frame2.html";
         }
     })
 });
