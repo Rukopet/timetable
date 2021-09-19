@@ -12,7 +12,7 @@ $(function() {
     var _groups =  JSON.parse(groups);
     console.log(_groups);
 
-    for (let i = 0; i < 1600; i++) {
+    for (let i = 0; i < 200; i++) {
         addRow(i, _groups, _subjects);    
     }
 
