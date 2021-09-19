@@ -100,7 +100,7 @@ function getJson() {
     
         return elt.options[elt.selectedIndex].text;
     }
-    var text = getSelectedText("pair0");
+    var text = getSelectedText("pair1");
     // var text = getSelectedText("pair" + discId);
     console.log(text)
     // document.getElementById('pair' + discId).addEventListener('change', function() {
@@ -110,11 +110,11 @@ function getJson() {
     //     // var n = $( "'pair' + discId option:selected" ).text(); 
     //     //  var txt = n.text;
     object.pair = text;
-    arrJson.push(object)
+    // arrJson.push(object)
     //      console.log(arrJson)
       
 });
-// arrJson.push(object)
-     }
+arrJson.push(object)
+}
     console.log(arrJson)
 }
