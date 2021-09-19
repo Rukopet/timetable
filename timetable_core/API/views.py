@@ -73,7 +73,6 @@ class PedagogsView(TimetableBaseView):
 class GenerateEntirely(APIView):
     HTML_FOR_VIEW = 'API/generate_send.html'
     SERIALIZER_FOR_VIEW = PedagogsSerializer
-    MANY = True
 
     def post(self, request, slug=None):
         try:
