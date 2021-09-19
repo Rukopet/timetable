@@ -9,6 +9,7 @@ from rest_framework import serializers
 from .serializers import *
 import json
 import requests
+import os
 
 
 # Create your views here.
@@ -78,8 +79,14 @@ class GenerateEntirely(TimetableBaseView):
         try:
             serializer = self.SERIALIZER_FOR_VIEW(data=request.data, many=self.MANY)
             if serializer.is_valid(raise_exception=True):
-                MyUtils.json_answer(True, "Valid data", 200)
-            response = requests.get('http:127.0.0.1', data=serializer.data)
+                answer = MyUtils.json_answer(True, "Valid data", 200)
+            headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+            response = requests.post(
+                f'http://{os.environ.get("ALGORITHM_HOST")}:{os.environ.get("ALGORITHM_PORT_OUT")}/generate',
+                json=json.dumps(serializer.validated_data),
+                headers=headers,
+            )
+            return answer
 
         except ValidationError as e:
             return MyUtils.json_answer(False, f"Bad data, check JSON {e.__str__()}", 422)
