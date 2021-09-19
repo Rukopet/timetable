@@ -80,11 +80,11 @@ class GenerateEntirely(TimetableBaseView):
             serializer = self.SERIALIZER_FOR_VIEW(data=request.data, many=self.MANY)
             if serializer.is_valid(raise_exception=True):
                 answer = MyUtils.json_answer(True, "Valid data", 200)
-            headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
+            headers = {'Content-type': 'application/json', 'Accept': 'text/plain', 'charset': 'utf-8'}
             response = requests.post(
                 f'http://{os.environ.get("ALGORITHM_HOST")}:{os.environ.get("ALGORITHM_PORT_OUT")}/generate',
                 json=json.dumps(serializer.validated_data),
-                headers=headers,
+                headers=headers
             )
             return answer
 

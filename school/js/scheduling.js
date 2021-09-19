@@ -124,7 +124,7 @@ function addSelectGroupsTd(id, groups) {
         optionsSelect += "<option>" + group + "</option>";
     }
 
-    var select = "<select class='discipline-teach" + id + "' " + " id='discipline-teach'" + id + "' " + " name='discipline-teach" + id + "' " + ">"
+    var select = "<select class='group-teach" + id + "' " + " id='group-teach'" + id + "' " + " name='group-teach" + id + "' " + ">"
 
     var endSelect = " </select>";
 

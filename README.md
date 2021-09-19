@@ -1,6 +1,6 @@
-# API documentation
+# API documentation 
 
-## http://host:port/generate/groups
+## http://host:port/generate/groups 
 
 <img width="1467" alt="Screen Shot 2021-09-19 at 6 04 07 PM" src="https://user-images.githubusercontent.com/74075500/133932711-b5bfdc58-332b-4d72-a022-6d6cc38af0ee.png">
 
