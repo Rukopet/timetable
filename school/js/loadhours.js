@@ -41,11 +41,7 @@ function getGroupByCell(column) {
 // example https://github.com/Rukopet/timetable/blob/utils/timetable_genetic_algorithm/data_for_test/load_plan.json
 function getJson() {
     var result = [];
-
-    var obj = {}
-    obj.num = "";
-    obj.letter = "";
-
+    
     $("#tableSubjects tr").each(function () {
 
         $('td', this).each(function () {
