@@ -72,3 +72,7 @@ https://github.com/Rukopet/timetable/blob/main/timetable_core/API/templates/API/
 
 Example: https://github.com/Rukopet/timetable_algorithm/blob/main/timetable_genetic_algorithm/data_for_test/generate_entirely.json
 
+  
+   
+  
+
