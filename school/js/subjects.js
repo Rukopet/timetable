@@ -115,6 +115,6 @@ function getJson() {
       
 });
 // arrJson.push(object)
-}
+     }
     console.log(arrJson)
 }

@@ -13,6 +13,23 @@ $(function() {
     console.log(_groups);
 
     generateTable(_subjects, _groups);
+
+
+    $("#loadhours_next_btn").click(function() { 
+            
+       
+        // var json = JSON.stringify(groupsArray);    
+
+        // localStorage.setItem("groups", json);
+        
+        // if (groupsArray.length === 0) {
+        //     alert("Не выбрали классы");
+        // } else {
+        //     window.location.href = "./frame2.html";
+        // }
+
+        window.location.href = "./frame4.html";
+    })
 });
 
 // google - add table row foreach jquery
