@@ -13,7 +13,68 @@ $(function() {
     console.log(_groups);
 
     generateTable(_subjects, _groups);
+
+
+    $("#loadhours_next_btn").click(function() { 
+            
+        
+        // todo
+        // generateJson() call
+        // и положить в локал стораж
+
+        window.location.href = "./frame4.html";
+    })
 });
+
+// todo https://github.com/Rukopet/timetable/blob/utils/timetable_genetic_algorithm/data_for_test/load_plan.json
+// example 
+// [
+//     {
+//       "num": 1,
+//       "letter": "А",
+//       "discipline": [
+//         {
+//           "discipline": "Русский язык",
+//           "load": 4
+//         },
+function generateJson(){
+    var result = [];
+
+    var obj = {}
+    obj.num = "";
+    obj.letter = "";
+
+    $("#tableSubjects tr").each(function () {
+
+        $('td', this).each(function () {
+            var value = $(this).find(":input").val();
+            
+            if(value) {
+
+                console.log($(this));
+
+                var cellIndex = $(this)[0].cellIndex;
+
+                // todo по свойствам td можно
+                // определить класс и дисциплаину по шапке таблицы и по первой колонке
+                console.log(cellIndex);
+
+                result.push({
+                    num: 1,
+                    letter: "",
+                    discipline: [
+                                {
+                                  "discipline": "Русский язык",
+                                  "load": value
+                                }]
+                            });
+
+                            console.log(value);
+            }                        
+         })
+    
+    })
+}
 
 // google - add table row foreach jquery
 function generateTable(subjects, groups){
