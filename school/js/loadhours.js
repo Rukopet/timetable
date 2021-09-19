@@ -32,6 +32,55 @@ $(function() {
     })
 });
 
+// example 
+// [
+//     {
+//       "num": 1,
+//       "letter": "А",
+//       "discipline": [
+//         {
+//           "discipline": "Русский язык",
+//           "load": 4
+//         },
+function generateJson(){
+    var result = [];
+
+    var obj = {}
+    obj.num = "";
+    obj.letter = "";
+
+    $("#tableSubjects tr").each(function () {
+
+        $('td', this).each(function () {
+            var value = $(this).find(":input").val();
+            
+            if(value) {
+
+                console.log($(this));
+
+                var cellIndex = $(this)[0].cellIndex;
+
+                // по свойствам td можно
+                // определить класс и дисциплаину по шапке таблицы и по первой колонке
+                console.log(cellIndex);
+
+                result.push({
+                    num: 1,
+                    letter: "",
+                    discipline: [
+                                {
+                                  "discipline": "Русский язык",
+                                  "load": value
+                                }]
+                            });
+
+                            console.log(value);
+            }                        
+         })
+    
+    })
+}
+
 // google - add table row foreach jquery
 function generateTable(subjects, groups){
 
