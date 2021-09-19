@@ -10,7 +10,7 @@ class GenerateEntirelySerializer(serializers.Serializer):
 
     client_mail = serializers.EmailField(required=True)
     groups = GroupsSerializer()
-    audiences = AudiencesSerializer()
-    disciplines = DisciplinesSerializer()
-    load_plan = LoadPlanSerializer()
-    pedagogs = PedagogsSerializer()
+    audiences = AudiencesSerializer(many=True)
+    disciplines = DisciplinesSerializer(many=True)
+    load_plan = LoadPlanSerializer(many=True)
+    pedagogs = PedagogsSerializer(many=True)

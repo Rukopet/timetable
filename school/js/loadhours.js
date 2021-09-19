@@ -24,7 +24,7 @@ function generateTable(subjects, groups){
     for (var i = 0; i < subjects.length; i++ ) {
 
         var subject = subjects[i];
-        var tr_var ="<tr><td> " + subject + "</td>'" + inputRow + "</tr>";
+        var tr_var ="<tr><td> " + subject + "</td>" + inputRow + "</tr>";
 
         $(tr_var).appendTo('#tableSubjects');
     }

@@ -29,6 +29,7 @@ li {
 
 .header__title {
     background-color: #0fe2ad;
+    background-color: #89D5D1;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     line-height: 40px;
@@ -57,14 +58,16 @@ li {
     margin: 35px auto;
     max-width: 550px;
     padding: 25px;
-    border: 2px solid #000;
-    background-color: #e0d9d9;
+    border: 2px solid #555;
+   /* background-color: #e0d9d9;*/
+    background-color: #D9F2ED;
 }
 
 .parallel__groups {
     padding: 25px;
-    border: 2px solid #000;
-    background-color: #e0d9d9;
+    border: 2px solid #555;
+    /*background-color: #e0d9d9;*/
+    background-color: #D9F2ED;
 }
 
 .parallel__groups-sat {
@@ -159,6 +162,9 @@ td {
     max-width: 715px;
     display: flex;
     justify-content: space-between;
+}
+.discipline-chek {
+    display: flex;
 }
 
 .pair {}
