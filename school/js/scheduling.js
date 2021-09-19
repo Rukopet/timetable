@@ -69,20 +69,38 @@ function getJson() {
                 continue;
             }
 
-            result.push({
-                ped_name: pedagogName,
-                disciplines: [
-                    {
-                        "discipline": subject,
-                        "groups": [
-                            {
-                                num: group.toString().charAt(0),
-                                letter: group.toString().charAt(1),
-                            }
+            var res = result.find(obj => {
+                return obj.ped_name === pedagogName
+            })
 
-                        ]
-                    }]
-            });
+            if (res) {
+                res.disciplines.push({
+                    "discipline": subject,
+                    "groups": [
+                        {
+                            num: group.toString().charAt(0),
+                            letter: group.toString().charAt(1),
+                        }
+
+                    ]
+
+                })
+            } else {
+                result.push({
+                    ped_name: pedagogName,
+                    disciplines: [
+                        {
+                            "discipline": subject,
+                            "groups": [
+                                {
+                                    num: group.toString().charAt(0),
+                                    letter: group.toString().charAt(1),
+                                }
+
+                            ]
+                        }]
+                });
+            }
         }
     }
 
