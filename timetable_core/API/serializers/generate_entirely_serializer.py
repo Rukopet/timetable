@@ -9,7 +9,7 @@ class GenerateEntirelySerializer(serializers.Serializer):
     from .disciplines_serializer import DisciplinesSerializer
 
     client_mail = serializers.EmailField(required=True)
-    groups = GroupsSerializer()
+    groups_list = GroupsSerializer()
     audiences = AudiencesSerializer(many=True)
     disciplines = DisciplinesSerializer(many=True)
     load_plan = LoadPlanSerializer(many=True)
