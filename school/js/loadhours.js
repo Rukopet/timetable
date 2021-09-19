@@ -17,21 +17,16 @@ $(function() {
 
     $("#loadhours_next_btn").click(function() { 
             
-       
-        // var json = JSON.stringify(groupsArray);    
-
-        // localStorage.setItem("groups", json);
         
-        // if (groupsArray.length === 0) {
-        //     alert("Не выбрали классы");
-        // } else {
-        //     window.location.href = "./frame2.html";
-        // }
+        // todo
+        // generateJson() call
+        // и положить в локал стораж
 
         window.location.href = "./frame4.html";
     })
 });
 
+// todo https://github.com/Rukopet/timetable/blob/utils/timetable_genetic_algorithm/data_for_test/load_plan.json
 // example 
 // [
 //     {
@@ -60,7 +55,7 @@ function generateJson(){
 
                 var cellIndex = $(this)[0].cellIndex;
 
-                // по свойствам td можно
+                // todo по свойствам td можно
                 // определить класс и дисциплаину по шапке таблицы и по первой колонке
                 console.log(cellIndex);
 
