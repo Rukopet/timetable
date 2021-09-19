@@ -21,7 +21,7 @@ $(function() {
 
 function addRow(id, groups, subjects){
 
-    let inputTd = "<td><input type='text' name='teacher" + id + "' " + "id='teacher" + id + "' " + "></td>";
+    let inputTd = "<td><input type='text' name='aud" + id + "' " + "id='aud" + id + "' " + "></td>";
 
     let selectGroupsTd = addSelectGroupsTd(id, groups);
 
@@ -29,7 +29,7 @@ function addRow(id, groups, subjects){
 
     let row = "<tr>"+ inputTd  + selectSubjectsTd + selectGroupsTd + "</tr>";
 
-    $('#teacher-discipline tr:last').after(row);
+    $('#aud-discipline tr:last').after(row);
 }
 
 function addSelectGroupsTd(id, groups) {
@@ -41,7 +41,7 @@ function addSelectGroupsTd(id, groups) {
         optionsSelect += "<option>" + group + "</option>";        
     }
 
-    var select = "<select class='group-teach" + id + "' " + " id='group-teach'" + id + "' " + " name='group-teach" + id + "' " + ">"
+    var select = "<select class='group-aud" + id + "' " + " id='group-aud'" + id + "' " + " name='group-aud" + id + "' " + ">"
 
     var endSelect = " </select>";
 
@@ -60,7 +60,7 @@ function addSelectSubjects(id, subjects){
         optionsSelect += "<option>" + subject + "</option>";     
     }
 
-    var select = "<select class='discipline-teach" + id + "' " + " id='discipline-teach'" + id + "' " + " name='discipline-teach" + id + "' " + ">"
+    var select = "<select class='discipline-aud" + id + "' " + " id='discipline-aud'" + id + "' " + " name='discipline-aud" + id + "' " + ">"
 
     var endSelect = " </select>";
 

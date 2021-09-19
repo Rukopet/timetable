@@ -110,7 +110,7 @@ function addFirstRow(groups) {
 function getInputRow(groups) {
     var row = "";
     for (let i = 0; i < groups.length; i++) {
-        row += "<td> <input type='number'></td>"
+        row += "<td> <input type='number' min=0></td>"
     }
     return row;
 }
