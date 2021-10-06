@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -21,7 +22,9 @@
       </div>
       <div class="col-sm-2 col-12">
         <!--        <a class="theme-button btn btn-primary pull-right" id="subjects_prev_page" href="./frame3.html">Назад</a>-->
-        <button id="calculate_btn" type="button" class="theme-button btn btn-primary pull-right">Рассчитать</button>
+        <a class="popup-with-form" href="#test-form">Рассчитать</a>
+        
+        
       </div>
       <div>
         <img src="images/logo.jpg" width="100px">
@@ -30,6 +33,26 @@
   </header>
   <section class="aud">
     <div class="container">
+      
+
+      <!-- form itself -->
+      <form id="test-form" class="mfp-hide white-popup-block">
+        <h1>Заполните форму</h1>
+        <fieldset style="border:0;">
+          <p>На указанную вами почту будет выслано готовое расписание занятий.</p>
+          <ol>
+            <li>
+              <label for="name">ФИО</label>
+              <input id="name" name="name" type="text" placeholder="Укажите ФИО" required="">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Укажите вашу почту" required="">
+            </li>
+          </ol>
+          <button id="calculate_btn" type="button" class="theme-button btn btn-primary pull-right">Рассчитать</button>
+        </fieldset>
+      </form>
       <div class="table-aud">
         <table class="aud-discipline" id="aud-discipline">
 
@@ -44,6 +67,7 @@
     </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/auditories.js"></script>
 </body>
 
