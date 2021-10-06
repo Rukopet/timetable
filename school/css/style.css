@@ -261,3 +261,22 @@ th {
 .discipline2-pair {
     display: none;
 }
+.popup-with-form{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px;
+    margin-top: 4px;
+    border: 2px solid #0fe2ad;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.mfp-content form{
+    width: 500px;
+    height: 500px;
+    background-color: #0fe2ad;
+    margin: 0 auto;
+    padding: 30px;
+}
+.mfp-content form input{
+    margin: 30px;
+}
