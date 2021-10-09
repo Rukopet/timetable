@@ -2,36 +2,43 @@ $(function () {
 
     $('#calculate_btn').click(function () {
 
-        $.ajax
-            ({
-                url: '/generate/generate_timetable',
-                data: getDataForGenerate(),
-                type: 'post',
-                success: function (result) {
-                    alert("Данные успешно отправлены");
-                }
-            });
+
+        var email = $("#email").val();
+        if (email) {
+            $.ajax
+                ({
+                    url: '/generate/generate_timetable',
+                    data: getDataForGenerate(email),
+                    type: 'post',
+                    success: function (result) {
+                        alert("Данные успешно отправлены");
+                        $.magnificPopup.close();
+                    }
+                });              
+        } else {
+            alert("введите почту")
+        }
     });
 
 });
-$(document).ready(function() {
-	$('.popup-with-form').magnificPopup({
-		type: 'inline',
-		preloader: false,
-		focus: '#name',
+$(document).ready(function () {
+    $('.popup-with-form').magnificPopup({
+        type: 'inline',
+        preloader: false,
+        focus: '#name',
 
-		// When elemened is focused, some mobile browsers in some cases zoom in
-		// It looks not nice, so we disable it:
-		callbacks: {
-			beforeOpen: function() {
-				if($(window).width() < 700) {
-					this.st.focus = false;
-				} else {
-					this.st.focus = '#name';
-				}
-			}
-		}
-	});
+        // When elemened is focused, some mobile browsers in some cases zoom in
+        // It looks not nice, so we disable it:
+        callbacks: {
+            beforeOpen: function () {
+                if ($(window).width() < 700) {
+                    this.st.focus = false;
+                } else {
+                    this.st.focus = '#name';
+                }
+            }
+        }
+    });
 });
 function getAudiens() {
     return [
@@ -628,7 +635,7 @@ function getAudiens() {
     ]
 }
 
-function getDataForGenerate() {
+function getDataForGenerate(email) {
 
     var groupList = {
         second_shift: true,
@@ -637,7 +644,7 @@ function getDataForGenerate() {
     }
 
     var result = {
-        client_mail: "pupkin@gmail.com",
+        client_mail: email,
         groups_list: groupList,
         audiences: getAudiens(),
         disciplines: JSON.parse(localStorage.getItem("subjects_json")),
