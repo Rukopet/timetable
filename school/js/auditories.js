@@ -1,3 +1,5 @@
+let countRow = 0;
+
 $(function () {
 
     $('#calculate_btn').click(function () {
@@ -14,14 +16,12 @@ $(function () {
                         alert("Данные успешно отправлены");
                         $.magnificPopup.close();
                     }
-                });              
+                });
         } else {
             alert("введите почту")
         }
     });
 
-});
-$(document).ready(function () {
     $('.popup-with-form').magnificPopup({
         type: 'inline',
         preloader: false,
@@ -39,7 +39,77 @@ $(document).ready(function () {
             }
         }
     });
+
+    $('#add_row_btn').click(function () {
+        addRow();
+    });
+
+    for (let i = 0; i < 5; i++) {
+        addRow();
+    }
+
 });
+
+function addRow() {
+
+    countRow = countRow + 1;
+    id = countRow;
+
+    let inputAudTd = "<td><input type='number' name='aud" + id + "' " + "id='aud" + id + "' " + "></td>";
+
+    let selectGroupsTd = addSelectGroupsTd(id);
+
+    let selectSubjectsTd = addSelectSubjects(id);
+
+    let row = "<tr>" + inputAudTd + selectSubjectsTd + selectGroupsTd + "</tr>";
+
+    $('#aud-discipline tr:last').after(row);
+}
+
+function addSelectGroupsTd(id) {
+
+    var _groups = localStorage.getItem("groups");
+
+    var groups = JSON.parse(_groups);
+
+    let optionsSelect = "<option>-</option>";
+
+    for (var i = 0; i < groups.length; i++) {
+        var group = groups[i].number + groups[i].count;
+        optionsSelect += "<option>" + group + "</option>";
+    }
+
+    var select = "<select class='group-teach" + id + "' " + " id='group-teach'" + id + "' " + " name='group-teach" + id + "' " + ">"
+
+    var endSelect = " </select>";
+
+    var result = "<td>" + select + optionsSelect + endSelect + "</td>";
+
+    return result;
+}
+
+function addSelectSubjects(id) {
+
+    var _subjects = localStorage.getItem("subjects");
+    var subjects = JSON.parse(_subjects);
+
+    let optionsSelect = "<option>-</option>";
+
+    for (var i = 0; i < subjects.length; i++) {
+
+        var subject = subjects[i];
+        optionsSelect += "<option>" + subject + "</option>";
+    }
+
+    var select = "<select class='discipline-teach" + id + "' " + " id='discipline-teach'" + id + "' " + " name='discipline-teach" + id + "' " + ">"
+
+    var endSelect = " </select>";
+
+    var result = "<td>" + select + optionsSelect + endSelect + "</td>";
+
+    return result;
+}
+
 function getAudiens() {
     return [
         {

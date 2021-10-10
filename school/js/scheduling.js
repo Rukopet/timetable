@@ -103,18 +103,7 @@ function getJson() {
             }
         }
     }
-
-    // "disciplines": [
-    //     {
-    //       "discipline": "Русский язык",
-    //       "groups": [
-    //         {
-    //           "num": 1,
-    //           "letter": "А"
-    //         }
-    //       ]
-    //     },
-
+    
     console.log(result);
     return result;
 }
