@@ -50,6 +50,43 @@ $(function () {
 
 });
 
+
+function getGroup(row) {
+    var c = $("#aud-discipline").find('tr:eq(' + (row) + ')').find('td:eq(' + 2 + ')');
+    var value = c.find(":input").val();
+    return value;
+}
+
+
+function getSubject(row) {
+    var c = $("#aud-discipline").find('tr:eq(' + (row) + ')').find('td:eq(' + 1 + ')');
+    var value = c.find(":input").val();
+    return value;
+}
+
+function getAudNumber(row) {
+    var c = $("#aud-discipline").find('tr:eq(' + (row) + ')').find('td:eq(' + 0 + ')');
+    var value = c.find(":input").val();
+    return value;
+}
+
+// todo по аналогии как с 4 страниццей
+function getJson() {
+    var result = [];
+
+    var rowCount = $('#aud-discipline tr').length;
+
+    for (let i = 0; i < rowCount; i++) {
+        var audNumber = getAudNumber(i);
+
+        if (audNumber) {
+
+        }
+    }
+
+    return result;
+}
+
 function addRow() {
 
     countRow = countRow + 1;
