@@ -31,6 +31,26 @@
   </header>
   <section class="aud">
     <div class="container">
+
+
+      <!-- form itself -->
+      <form id="test-form" class="mfp-hide white-popup-block">
+        <h1>Заполните форму</h1>
+        <fieldset style="border:0;">
+          <p>На указанную вами почту будет выслано готовое расписание занятий.</p>
+          <ol>
+            <li>
+              <label for="name">ФИО</label>
+              <input id="name" name="name" type="text" placeholder="Укажите ФИО" required="">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Укажите вашу почту" required="">
+            </li>
+          </ol>
+          <button id="calculate_btn" type="button" class="theme-button btn btn-primary pull-right">Рассчитать</button>
+        </fieldset>
+      </form>
       <div class="table-aud">
         <table class="aud-discipline" id="aud-discipline">
 
@@ -41,12 +61,13 @@
           </tr>
         </table>
       </div>
+      <button id="add_row_btn">Добавить</button>
 
     </div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="{% static 'js/auditories.js' %}"></script>
-    <script src="{% static 'js/scheduling_a.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/auditories.js' %}"></script>
 </body>
 
 </html>

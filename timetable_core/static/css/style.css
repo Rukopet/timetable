@@ -29,6 +29,7 @@ li {
 
 .header__title {
     background-color: #0fe2ad;
+    background-color: #89D5D1;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     line-height: 40px;
@@ -57,14 +58,16 @@ li {
     margin: 35px auto;
     max-width: 550px;
     padding: 25px;
-    border: 2px solid #000;
-    background-color: #e0d9d9;
+    border: 2px solid #555;
+   /* background-color: #e0d9d9;*/
+    background-color: #D9F2ED;
 }
 
 .parallel__groups {
     padding: 25px;
-    border: 2px solid #000;
-    background-color: #e0d9d9;
+    border: 2px solid #555;
+    /*background-color: #e0d9d9;*/
+    background-color: #D9F2ED;
 }
 
 .parallel__groups-sat {
@@ -83,126 +86,51 @@ li {
 .parallel__groups li {
     display: grid;
     text-align: center;
+    padding-left: 20px;
 }
 
-.max_par-1,
+
+/* .max_par-1,
 .max_par-2,
 .max_par-3 {
     display: none;
+} */
+
+.par-table table {
+    margin: 30px;
+    border: none;
 }
 
-.class1_par-2,
-.class1_par-3,
-.class1_par-4,
-.class1_par-5,
-.class1_par-23,
-.class1_par-24,
-.class1_par-34,
-.class1_par-25,
-.class1_par-35,
-.class1_par-45,
-.class2_par-2,
-.class2_par-3,
-.class2_par-4,
-.class2_par-5,
-.class2_par-23,
-.class2_par-24,
-.class2_par-34,
-.class2_par-25,
-.class2_par-35,
-.class2_par-45,
-.class3_par-2,
-.class3_par-3,
-.class3_par-4,
-.class3_par-5,
-.class3_par-23,
-.class3_par-24,
-.class3_par-34,
-.class3_par-25,
-.class3_par-35,
-.class3_par-45,
-.class4_par-2,
-.class4_par-3,
-.class4_par-4,
-.class4_par-5,
-.class4_par-23,
-.class4_par-24,
-.class4_par-34,
-.class4_par-25,
-.class4_par-35,
-.class4_par-45,
-.class5_par-2,
-.class5_par-3,
-.class5_par-4,
-.class5_par-5,
-.class5_par-23,
-.class5_par-24,
-.class5_par-34,
-.class5_par-25,
-.class5_par-35,
-.class5_par-45,
-.class6_par-2,
-.class6_par-3,
-.class6_par-4,
-.class6_par-5,
-.class6_par-23,
-.class6_par-24,
-.class6_par-34,
-.class6_par-25,
-.class6_par-35,
-.class6_par-45,
-.class7_par-2,
-.class7_par-3,
-.class7_par-4,
-.class7_par-5,
-.class7_par-23,
-.class7_par-24,
-.class7_par-34,
-.class7_par-25,
-.class7_par-35,
-.class7_par-45,
-.class8_par-2,
-.class8_par-3,
-.class8_par-4,
-.class8_par-5,
-.class8_par-23,
-.class8_par-24,
-.class8_par-34,
-.class8_par-25,
-.class8_par-35,
-.class8_par-45,
-.class9_par-2,
-.class9_par-3,
-.class9_par-4,
-.class9_par-5,
-.class9_par-23,
-.class9_par-24,
-.class9_par-34,
-.class9_par-25,
-.class9_par-35,
-.class9_par-45,
-.class10_par-2,
-.class10_par-3,
-.class10_par-4,
-.class10_par-5,
-.class10_par-23,
-.class10_par-24,
-.class10_par-34,
-.class10_par-25,
-.class10_par-35,
-.class10_par-45,
-.class11_par-2,
-.class11_par-3,
-.class11_par-4,
-.class11_par-5,
-.class11_par-23,
-.class11_par-24,
-.class11_par-34,
-.class11_par-25,
-.class11_par-35,
-.class11_par-45 {
-    display: none;
+.group1,
+.group2,
+.group3,
+.group4,
+.group5,
+.group6,
+.group7,
+.group8,
+.group9,
+.group10,
+.group11 {
+    display: block;
 }
+
+
+/* tr,
+td {
+    height: 25px;
+} */
+
+.max_par-1 select {
+    width: 45px;
+    height: 25px;
+}
+
+
+/* .first-shift input,
+.second-shift input{
+    margin: 5px;
+} */
 
 .next {
     width: 75px;
@@ -231,14 +159,15 @@ li {
 }
 
 .discipline {
-    max-width: 500px;
+    max-width: 715px;
     display: flex;
     justify-content: space-between;
 }
-
-.pair {
-    display: none;
+.discipline-chek {
+    display: flex;
 }
+
+.pair {}
 
 .school-discipline input {
     margin: 6px 60px;
@@ -274,7 +203,7 @@ th {
 .table-teacher {
     text-align: center;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 .teacher-discipline caption {
@@ -324,4 +253,30 @@ th {
     height: 55px;
     background-color: #0fe2ad;
     margin-left: 715px;
+}
+
+
+/**/
+
+.discipline2-pair {
+    display: none;
+}
+.popup-with-form{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px;
+    margin-top: 4px;
+    border: 2px solid #0fe2ad;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.mfp-content form{
+    width: 500px;
+    height: 500px;
+    background-color: #0fe2ad;
+    margin: 0 auto;
+    padding: 30px;
+}
+.mfp-content form input{
+    margin: 30px;
 }
